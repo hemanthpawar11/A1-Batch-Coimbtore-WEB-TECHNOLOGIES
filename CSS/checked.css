@@ -1,0 +1,37 @@
+input + p{
+    display: none; 
+    background-color: coral;
+    color: darkgreen;
+}
+
+
+input:checked +p    {
+    display: block;
+}
+ 
+input:focus{
+    color: blue;
+}
+
+/* ! */
+
+span{
+    height: 50px;
+    width: 300px;
+border: solid red;
+}
+div{
+    height: 50px;
+    width: 300px;
+    border: solid red;
+
+}
+/* ! */
+
+input:focus +b{
+    color: blue;
+}
+
+input:focus +::after {
+ content: "Focused....";
+}

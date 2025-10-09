@@ -1,0 +1,30 @@
+/* a:link{
+    color: green;
+}
+
+/* If visit any link there change 
+:any-link{
+    color: coral;
+} */ 
+/* 
+p::first-letter{
+    color: red;
+} */
+
+p::first-line{
+    color:lawngreen;
+}
+
+P::selection{
+    color: cyan;
+    background-color: black;
+}
+
+P::first-letter{
+    font-size: 50px;
+    color: crimson;
+}
+
+p::after{
+    content: You Got Placed With 60LPA ;
+}

@@ -1,0 +1,44 @@
+/* #box{
+height: 700px;
+width: 700px;
+
+border: solid black;
+
+
+
+/* it will specify the background color of an element */
+/* value any color */
+
+/* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4RMKKKXbQaaVk_Ny8Ya5gLA5H1_WIDyTWcA&s://user-gen-media-assets.s3.amazonaws.com/gemini_images/34e50613-cf4d-404a-b978-103078806848.png); */
+/* it will specify the backgorund image of an element 
+values : url(for external path addrerss)  (./) for internal path */
+
+/* background-image: url(https://media.licdn.com/dms/imahttps://media.licdn.com/dms/image/v2/D5603AQFXXcVZFhMurg/profile-displayphoto-scale_200_200/B56Zf5RlgHHYAY-/0/1752233826995?e=2147483647&v=beta&t=7Bno47yi2x35VF0cOAxDuq3as8Gi-mTWaoJ9xRQH5Moge/v2/D5603AQFXXcVZFhMurg/profile-displayphoto-scale_200_200/B56Zf5RlgHHYAY-/0/1752233826995?e=2147483647&v=beta&t=7Bno47yi2x35VF0cOAxDuq3as8Gi-mTWaoJ9xRQH5Mow); */
+/* background-image: url(./csscolor.jpg.png); */
+
+/* background-position: center; */
+/* it will specify the position of the background image
+values : left | right | top | bottom | center | <length> | <percentage> */
+
+/* background-repeat: ; */
+/* it will specify whether the background image should repeat
+values : repeat | repeat-x | repeat-y | no-repeat */
+
+/* background-size:; */
+/* it will specify the size of the background image
+values : auto | cover | contain | <length> | <percentage> */
+/* background-size:cover; */
+
+/* } */ 
+
+body{
+background-image: url(https://images3.alphacoders.com/139/1397669.jpg );
+
+color: rgb(230, 7, 7);
+
+background-repeat: no-repeat;         
+background-size: cover;
+background-attachment: fixed;
+}
+
+

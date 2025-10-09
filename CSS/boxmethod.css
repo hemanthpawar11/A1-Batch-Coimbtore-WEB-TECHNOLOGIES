@@ -1,0 +1,57 @@
+#navbar1{
+    background-color: teal;
+    color: white;
+}
+#navbar1 div{
+display: inline-block;
+height: 10px;
+padding: 20px 70px 28px 60px;
+font-weight: bold;
+}
+
+#navbar1 div:hover{
+    background-color:coral;
+}
+
+#navbar2{
+border:  solid red;
+margin-top: 50px;
+}
+
+#navbar2 div{
+color: blue;
+border: solid blueviolet;
+height: 100px;
+width: 100px;
+
+margin: 10px 20px 30px 40px ;
+/* top, right, botom, left */
+
+margin: 10px 20px 30px;
+/* top, left & right, bottom */
+
+margin: 10px 20px;
+/* top & bottom,  left & right */
+
+margin: 10px;
+/*  top & bottom & left & right */
+
+margin: 100px  auto;
+/* it will apply 100px margin at the top & bottom,
+auto will apply equal margin at left & right  */
+
+}
+
+/* how to take icons in html 
+1. font awsome website and move to icon
+3. search home option
+4. apply filter free
+5. click on icon 
+6. copy and paste
+7. because of 3rd party we cant access the icons 
+8. cdnjs.com   content delivery network 
+9. search font awsome
+10. copy the link and paste in html head tag
+
+*/
+

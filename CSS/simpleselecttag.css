@@ -1,0 +1,27 @@
+/* tag name 1st  */
+
+h1{
+    color:aqua;
+}
+
+/* grouping */
+
+h1,p{
+    color: blue;
+}
+
+/* universal select tag */
+*{
+    color: brown;
+}
+
+/* id select tag */
+#ram{
+    color: blueviolet;
+}
+
+/* class select tag */
+.arjun{
+    color: green;
+}
+

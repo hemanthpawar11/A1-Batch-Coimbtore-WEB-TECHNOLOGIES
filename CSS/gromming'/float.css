@@ -1,0 +1,16 @@
+img{
+    /* positon: absolute */
+    float: left;
+   margin: 10px 10px;
+}
+
+#para1{
+    clear: right;  
+    /* it will not keep anything at the right side */
+    clear: left;
+        /* it will not keep anything at the left side */
+    clear: both;
+        /* it will not keep anything at both sides */
+
+}
+

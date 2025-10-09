@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- tags:form,input,label,button 
+
+
+    #form
+    form tag:it is used to create a form to collect user input 
+             without form tag form attribute like type will not work
+    syntax:<form></form>
+
+    #input
+    input tag: it is used to create input box to collect data from the user
+    syntax:<input id={"id name"} type={"text/number/date/email/password/radio/checkbox"} name={"name of the input box"} value={"default value"} >
+    
+      #attributes of input box
+        -types attribute of input tag: text,number,date,email,password,radio,checkbox,etc.
+        - id attribute of input tag: it is used to identify the input box and it is used to link the label with input box
+        - name attribute of input tag: it is used to define the variable for the input box
+        - value attribute of input tag: it is used to provide default value in the input box
+    
+        #types of input box
+      
+            ##text
+            text input: it is used to enter text data   
+            syntax:<input type="text" name={"name of the input box"}>
+            
+            ##number
+            number input: it is used to enter number data
+            syntax:<input type="number" name={"name of the input box"}>
+
+            ##date
+            date input: it is used to enter date data
+            syntax:<input type="date" name={"name of the input box"}>
+
+            ##email
+            email input: it is used to enter email data
+            syntax:<input type="email" name={"name of the input box"}>
+
+            ##password
+            password input: it is used to enter password data
+            syntax:<input type="password" name={"name of the input box"}>
+
+
+            ##radio
+            radio input: it is used to select one option from the given options
+            syntax:<input type="radio" name={"same name for all the options"} value={"value of the option"}>
+            
+
+            ##checkbox
+            checkbox input: it is used to select multiple options from the given options
+            syntax:<input type="checkbox" name={"same name for all the options"} value={"value of the option"}>
+
+
+
+
+
+
+
+    #label
+    label tag: it is used to define a label for the input box
+    attribute of label tag: for
+    for attribute: it is used to link the label with the input box
+    syntax:<label for={"id name of the input box"}>contant</label>
+    eg:<label for="u_n">Name:</label>
+
+    
+
+
+   
+
+
+    #button
+    button tag: of by default it is submit type
+    types attribute of button: submit,reset,button
+    syntax:<button type={"submit/reset/button"}>text</button>
+
+    submit behaviour:it will check the data; 
+                     it submit the data 
+                     it refresh page auto matiacly
+                     eg:<button type="submit">Submit</button>
+    reset behaviour:
+                    it clear the data.
+                    it will not submit
+                    eg:<button type="reset"></button>
+    button behaviour:
+                    it will not submit
+                    it will not clear the data
+                    it will not refresh the page
+                    eg:<button type="button"></button>
+                     -->
+        <form>
+            <!-- input box -->
+            <lable>Name:</lable>
+            <input type="text" name="UrseName"><br><br>
+
+            <lable>Age:</lcble>
+            <input type="date" name="UserAge"><br><br>
+
+            <lable>Phone:</lable>
+            <input type="number" name="UserPhoneNo"><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="UserEmail"><br><br>
+
+            <h3><mark>id , for functionlaty</mark></h3> 
+            <!-- id , for functionlaty -->
+             <!-- input box -->
+            <lable for="u_n">Name:</lable>
+            <input id="u_n" type="text" name="UrseName"><br><br>
+
+            <lable for="u_a">Age:</lcble>
+            <input id="u_a"type="date" name="UserAge"><br><br>
+
+            <lable for="u_p">Phone:</lable>
+            <input id="u_p" type="number" name="UserPhoneNo"><br><br>
+
+            <label for="u_e">Email:</label>
+            <input id="u_e"type="email" name="UserEmail"><br><br>
+
+
+
+            <!--default value in input  -->
+            <lable>Company Name</lable>
+            <input type="text" name="CompanyName" value="Infosys"><br><br>
+
+            <!-- radio attribute-->
+            <label>Gender:</label> <br>
+            <label for="gender_Male">male</label>
+            <input id="gender_Male" type="radio" name="Gender" value="male">
+            <label for="gender_Male">Femail</label> 
+            <input id="gender_Femail"type="radio" name="Gender" value="Female">
+            <lable for="gender_Other">Other</lable>
+            <input id="gender_Other"type="radio" name="Gender" value="Other"><br><br>
+
+            <!-- checkbox attribute -->
+            <lable>Skills</lable> <br>
+            <label>HTML</label>
+            <input type="checkbox" name="Skill" value="HTML">
+            <label>CSS</label>
+            <input type="checkbox" name="Skill" value="CSS">
+            <label>JS</label>
+            <input type="checkbox" name="skill" value="JS"><br><br>
+        
+
+            <!-- button -->
+            <button type="submit">Submit</button><button type="reset">reset</button><button type="button">button</button>
+        </form>
+
+
+</body>
+</html>

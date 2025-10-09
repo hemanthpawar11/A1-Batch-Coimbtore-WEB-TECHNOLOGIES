@@ -1,0 +1,29 @@
+#box{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: purple;
+    font : 30px bold;
+    border-right: solid red 15px;
+    border-left: dashed blue 5px;
+    border-top: dotted green 10px;
+    border-bottom: double orange 15px;  
+    
+}
+
+ table{
+    border-collapse:separate ;
+
+    border-spacing: 30px;
+
+    
+ }
+
+ #div{
+    height: 500px;
+    width: 500px;
+    background: url(./csscolor.jpg.png) center no-repeat;
+    border: 1px solid #000;
+ }
+
+ 

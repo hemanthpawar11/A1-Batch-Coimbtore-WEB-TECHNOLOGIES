@@ -1,0 +1,53 @@
+body{
+    /* 1. color name  */
+    background-color: purple;
+
+    /* 2. rgb (red, green, blue)
+    - each color ranges  between 0 and 255*/
+    background-color: rgb(red, green, blue);
+    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 255);
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 210, 120);
+    background-color: rgb(120, 150, 120);
+
+    /* rgba  (red, green, blue, alpha) */
+    background-color: rgba(red, green, blue, alpha);
+    background-color: rgba(255, 0, 0, 1);
+    background-color: rgba(red, 0, 0, 0.6);
+    background-color: rgba(255, 0, 0, 0.1);
+    background-color: rgba(0, 0, 255, 0.3);
+    
+   /* hsx 
+   #rrggbb 
+   each valuer range b/w 0 to 9 and a to f */
+   background-color: #ff0000;
+   background-color: #00ff00;
+   background-color: #ff00ff;
+   background-color: #0000ff;
+   background-color: #ff3654;
+   background-color: #ff0000;
+
+   /* hsx 
+   #rgb
+   each valuer range b/w 0 to 9 and a to f */
+  
+   background-color: #00f;
+   background-color: #125;
+   background-color: #000;
+   background-color: #555;
+   background-color: #0f0;
+    background-color: #fff;
+
+   /* hsl 
+   (hue, saturation, lightness) */
+
+   background-color: hsl(hue, saturation, lightness);
+   background-color: hsl(120deg, 100%, 50%);
+   background-color: hsl(0deg, 100%, 50%);
+   background-color: hsl(240deg, 100%, 50%);
+
+ 
+}

@@ -1,0 +1,19 @@
+#demo{
+    font-size: larger;
+/* it will specify the size of the text values  */
+/* valeus xx-small, x-small, small, medium (default), large , x-large, xx-large, n px like 10px */
+
+font-style: normal;
+/*  it will specify do we need to apply italic or not  */
+
+font-weight: 900;
+/* it will specify the amount of boldness for the text */
+/* values : normal , bold, 100-400, 500-900 */
+
+font-family:cursive;
+/* for different font  */
+
+/* font-variant: small-caps; */
+
+}
+
