@@ -51,3 +51,57 @@
         background-color: rebeccapurple;
     }
 }
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+
+#box2{
+    height: 150px;
+    width: 150px;
+    /* border: solid #000; */
+    
+    background-color: red;
+    transform: translate(0px, 0px);
+    background: url(https://cdn.pixabay.com/photo/2017/10/27/09/38/halloween-2893710_1280.jpg)
+        no-repeat center;
+    background-size: cover;
+
+
+
+    animation-name:positionchange;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    animation: positionchange 4s infinite alternate-reverse 4s;
+    
+}
+
+@keyframes positionchange{
+    0%{
+        transform: translate(0px, 0px);
+        background-image: url(https://cdn.pixabay.com/photo/2022/10/07/13/42/long-halloween-7505073_1280.jpg);
+    }
+    25%{
+        transform: translate(1100px, 0px);
+         background-image: url(https://cdn.pixabay.com/photo/2020/10/20/22/10/skull-5671571_1280.jpg);
+        border-radius: 50%;
+    }
+    50%{
+        transform: translate(1100px, 450px);
+          background-image: url(https://cdn.pixabay.com/photo/2022/10/07/13/44/long-halloween-7505075_1280.jpg);
+
+    }
+    75%{
+        transform: translate(0px, 450px);
+        background-image: url(https://cdn.pixabay.com/photo/2024/10/01/07/58/ai-generated-9087498_1280.jpg);
+        border-radius: 50%;
+    }
+    100%{
+        transform: translate(0px, 0px);
+         background-image: url(https://variety.com/wp-content/uploads/2022/10/Five-Nights-at-Freddys.jpg?w=1000&h=563&crop=1);
+    }
+}
