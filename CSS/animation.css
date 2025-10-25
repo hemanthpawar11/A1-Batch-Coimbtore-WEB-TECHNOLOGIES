@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#box{
+    height: 100vh;
+    width: 100vw;
+    border: solid #000;
+  
+    animation-name:colorchange;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+
+}
+
+@keyframes colorchange{
+    0%{
+        background-color: rebeccapurple;
+    }
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: palegoldenrod;
+    }
+    30%{
+        background-color: paleturquoise;
+    }
+    40%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: violet;
+    }
+    60%{
+        background-color: purple;
+    }
+    70%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: navy;
+    }
+     90%{
+        background-color:gold;
+    }
+    100%{
+        background-color: rebeccapurple;
+    }
+}
