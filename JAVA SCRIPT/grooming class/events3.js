@@ -17,7 +17,7 @@ body.append(section);
 console.log(section);
 
 // apply css
-section.style.cssText =
+section.style.cssText =2
     `height: 100vh;
     width: 100vw;
     display: flex;`;
